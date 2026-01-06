@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div class="container">
+    <nav class="sidebar">
+        <h2>ADMIN</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Étudiants</a></li>
+            <li><a href="#">Notes</a></li>
+            <li><a href="#">Statistiques</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="header">
+            <h1>Dashboard Admin</h1>
+            <div class="profile">
+                <p><strong>Nom :</strong> Kaddou</p>
+                <p><strong>Email :</strong> admin@gmail.com</p>
+                <button class="logout">Déconnexion</button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h3>Total Étudiants</h3>
+                <p>120</p>
+            </div>
+            <div class="card">
+                <h3>Formations</h3>
+                <p>5</p>
+            </div>
+            <div class="card">
+                <h3>Étudiants Actifs</h3>
+                <p>95</p>
+            </div>
+        </div>
+        <section>
+            <h2>Liste des Étudiants</h2>
+            <input type="text" placeholder="Filtrer par nom" class="search">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Email</th>
+                        <th>Profil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Diallo</td>
+                        <td>Aminta</td>
+                        <td>aminta@gmail.com</td>
+                        <td>icon</td>
+                    </tr>
+                    <tr>
+                        <td>Ba</td>
+                        <td>Moussa</td>
+                        <td>moussa@gmail.com</td>
+                        <td>icon</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Notes des Étudiants</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Matière</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aminta Diallo</td>
+                        <td>JavaScript</td>
+                        <td>16 / 20</td>
+                    </tr>
+                    <tr>
+                        <td>Moussa Ba</td>
+                        <td>HTML / CSS</td>
+                        <td>14 / 20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="stats">
+            <div class="stat-box">
+                <h3>Taux de Réussite</h3>
+                <p>82%</p>
+            </div>
+            <div class="stat-box">
+                <h3>Moyenne Générale</h3>
+                <p>15 / 20</p>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
+
+
